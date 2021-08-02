@@ -5,7 +5,7 @@ const token =
 
 const url = "https://initserver.herokuapp.com/";
 const api = axios.create({
-  baseURL: "http://localhost:4000/",
+  baseURL: url,
   headers: {
     Authorization: token,
   },
