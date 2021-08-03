@@ -7,7 +7,7 @@ const url = "https://initserver.herokuapp.com/";
 const api = axios.create({
   baseURL: url,
   headers: {
-    Authorization: token,
+    Authorization: `Bearer ${token}`,
   },
 });
 
